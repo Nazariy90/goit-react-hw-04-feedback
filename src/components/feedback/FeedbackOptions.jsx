@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from './feedback.module.css';
 
-const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const optionsKeys = Object.keys(options);
 
   return (
@@ -28,5 +28,3 @@ FeedbackOptions.propTypes = {
   }).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
-
-export default FeedbackOptions;

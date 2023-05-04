@@ -1,10 +1,10 @@
 import React from 'react';
-import Feedback from './feedback/feedback';
+import { FeedbackApp } from './feedback/feedback';
 
 export const App = () => {
   return (
     <>
-      <Feedback />
+      <FeedbackApp />
     </>
   );
 };
